@@ -62,11 +62,11 @@ const Analytics = () => {
       <View
         style={{
           backgroundColor: "#FFFFFF",
-          width: 180,
+          width: 185,
           height: 125,
           borderRadius: 15,
           padding: 15,
-          margin: 12,
+          margin: 10,
         }}
       >
         <TouchableOpacity
