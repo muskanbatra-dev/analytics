@@ -4,7 +4,7 @@ import React from "react";
 const PostsScreen = () => {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>Profile Screen</Text>
+      <Text>Posts Screen</Text>
     </View>
   );
 };

@@ -4,7 +4,7 @@ import React from 'react'
 const ViewsScreen = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Posts Screen</Text>
+      <Text>Views Screen</Text>
     </View>
   )
 }

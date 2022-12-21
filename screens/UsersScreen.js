@@ -4,7 +4,7 @@ import React from 'react'
 const UsersScreen = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Links Screen</Text>
+      <Text>Users Screen</Text>
     </View>
   )
 }

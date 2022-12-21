@@ -4,7 +4,7 @@ import React from 'react'
 const SocialsScreen = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Followers Screen</Text>
+      <Text>Socials Screen</Text>
     </View>
   )
 }

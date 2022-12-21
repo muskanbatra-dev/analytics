@@ -5,20 +5,20 @@ import ViewsScreen from './screens/ViewsScreen';
 import PostsScreen from './screens/PostsScreen';
 import UsersScreen from './screens/UsersScreen';
 import SocialsScreen from './screens/SocialsScreen';
-import AnalyticsInsights from './screens/AnalyticsInsights';
+import Analytics from './screens/Analytics';
 
 const Stack = createNativeStackNavigator();
 
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='AnalyticsInsights'>
-        <Stack.Screen name="AnalyticsInsights" component={AnalyticsInsights} />
-        <Stack.Screen name="Views" component={ViewsScreen} />
-        <Stack.Screen name="Socials" component={SocialsScreen} />
-        <Stack.Screen name="Users" component={UsersScreen} />
-        <Stack.Screen name="Posts" component={PostsScreen} />
-      </Stack.Navigator>
+      <Stack.Navigator initialRouteName='Analytics'>
+     <Stack.Screen name="Analytics" component={Analytics} />
+      <Stack.Screen name="Views" component={ViewsScreen} />
+      <Stack.Screen name="Socials" component={SocialsScreen} />
+      <Stack.Screen name="Users" component={UsersScreen} />
+       <Stack.Screen name="Posts" component={PostsScreen} />
+     </Stack.Navigator>
     </NavigationContainer>
   );
 }
