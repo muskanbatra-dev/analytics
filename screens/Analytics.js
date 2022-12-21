@@ -66,7 +66,7 @@ const Analytics = () => {
           height: 120,
           borderRadius: 15,
           padding: 15,
-          margin: 10,
+          margin: 12,
         }}
       >
         <TouchableOpacity
