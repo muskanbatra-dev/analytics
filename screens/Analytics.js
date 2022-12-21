@@ -63,7 +63,7 @@ const Analytics = () => {
         style={{
           backgroundColor: "#FFFFFF",
           width: 180,
-          height: 120,
+          height: 125,
           borderRadius: 15,
           padding: 15,
           margin: 12,
