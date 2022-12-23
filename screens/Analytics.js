@@ -16,7 +16,7 @@ const DATA = [
     id: "0",
     uri: "https://img.icons8.com/nolan/64/visible.png",
     title: "Views",
-    key: "Views",
+    key: "ViewScreenNavigator",
   },
   {
     id: "1",
@@ -44,8 +44,8 @@ const Analytics = () => {
   const renderListItems = ({ item }) => {
     function onClickNavigate(key) {
       switch (key) {
-        case "Views":
-          navigation.navigate("Views");
+        case "ViewScreenNavigator":
+          navigation.navigate("ViewScreenNavigator");
           break;
         case "Posts":
           navigation.navigate("Posts");
@@ -67,6 +67,7 @@ const Analytics = () => {
           borderRadius: 15,
           padding: 15,
           margin: 10,
+          alignSelf:'center'
         }}
       >
         <TouchableOpacity

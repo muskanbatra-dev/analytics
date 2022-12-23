@@ -8,9 +8,6 @@ import {
 } from "react-native";
 import React from "react";
 
-
-
-
 const DATA = [
   {
     id: "0",
@@ -32,10 +29,7 @@ const DATA = [
   },
 ];
 
-
-const ViewsScreen = () => {
-  
-
+const QRScreen = () => {
   const renderListItems = ({ item }) => {
     return (
       <View
@@ -64,13 +58,13 @@ const ViewsScreen = () => {
   };
   return (
     <View>
-      <Text style={styles.heading}>Total Web Views</Text>
+      <Text style={styles.heading}>Total QR Scans</Text>
       <View style={styles.postcontainer}>
         <Image
           source={{ uri: "https://img.icons8.com/nolan/64/visible.png" }}
           style={{ width: 60, height: 60, alignSelf: "center" }}
         />
-        <Text style={styles.title}>Total Web Views</Text>
+        <Text style={styles.title}>Total QR Scans</Text>
         <Text style={styles.num}>3</Text>
         <View style={styles.analyticcontainer}>
           <Image
@@ -104,7 +98,7 @@ const ViewsScreen = () => {
   );
 };
 
-export default ViewsScreen;
+export default QRScreen;
 
 const styles = StyleSheet.create({
   heading: {
